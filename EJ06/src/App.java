@@ -1,8 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         int secreto = (int)(Math.random()*101);
-        boolean es_correcto = false;
-        for (int i=4;i>=0 || es_correcto==true;i--){
+        for (int i=4;i>=0;i--){
             System.out.print("Adivina el número: ");
             int numero = Integer.parseInt(System.console().readLine());
             if (numero==secreto) {
