@@ -27,7 +27,7 @@ public class App {
         System.out.printf("%nSuspensos: %d%n", contadorSuspenso);
         System.out.printf("Suficientes: %d%n", contadorSuficiente);
         System.out.printf("Bien: %d%n", contadorBien);
-        System.out.printf("Notable: %d%n", contadorNotable);
-        System.out.printf("Sobresaliente: %d%n", contadorSobresaliente);
+        System.out.printf("Notables: %d%n", contadorNotable);
+        System.out.printf("Sobresalientes: %d%n", contadorSobresaliente);
     }
 }
